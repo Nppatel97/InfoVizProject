@@ -391,7 +391,14 @@ font {
 }
 
 @media only screen and (max-width: 768px) {
+    .featWidggy {
+        width: 90%;
+        margin: 0%;
+        border: 2px solid lightgray;
+        overflow-x: scroll;
+    }
     .openIcon {
+        padding: 10px 15px;
         width: 50%;
         position: fixed;
         bottom: 0;
@@ -404,6 +411,7 @@ font {
         bottom: 0;
         right: 0;
         border-radius: 0;
+        padding: 10px 15px;
     }
     #bar {
         width: 1000px;

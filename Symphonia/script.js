@@ -3,11 +3,15 @@ $(document).ready(function() {
     $("#intro").fadeIn("slow");
     $(".footer").fadeIn("slow");
     $(".openIcon").click(function() {
+        $(".featWidggy").fadeOut();
         $(".widggy").fadeToggle();
         $(".listtt").toggleClass("rotateDown");
+        $(".feattt").removeClass("rotateDown");
     });
     $(".openIcon2").click(function() {
+        $(".widggy").fadeOut();
         $(".featWidggy").fadeToggle();
+        $(".listtt").removeClass("rotateDown");
         $(".feattt").toggleClass("rotateDown");
     });
 
