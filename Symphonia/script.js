@@ -58,13 +58,13 @@ $(document).ready(function() {
         $("[type='checkbox']", "#checBoxes").each(function() { this.checked = false; });
     });
     if (window.innerWidth < 768) {
+        $("#icoTxt").html("Playlist");
+        $("#icoTxt2").html("Features");
         $("#openAll").click(function() {
             $("#radarFrame").css("transform", "translateY(50px)");
             $("#scatterFrame").css("transform", "translateY(70px)");
             $("#barFrame").css("transform", "translateY(100px)");
             $("#barFrame, #scatterFrame, #radarFrame").delay(300).slideDown();
         });
-    } else {
-
     }
 });

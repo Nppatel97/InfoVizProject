@@ -391,6 +391,20 @@ font {
 }
 
 @media only screen and (max-width: 768px) {
+    .openIcon {
+        width: 50%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+    }
+    .openIcon2 {
+        width: 50%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+    }
     #bar {
         width: 1000px;
     }
@@ -398,8 +412,10 @@ font {
         background-size: contain;
     }
     #intro {
-        margin-top: 50%;
-        padding: 0 4%;
+        width: 100%;
+        margin-top: 65%;
+        padding: 0;
+        margin-left: 1%;
         color: midnightblue;
         font-size: 14px;
     }
@@ -465,6 +481,10 @@ font {
         font-size: 14px;
         padding: 15px;
         margin-left: 5%;
+    }
+    #footerr {
+        margin-left: -2%;
+        margin-bottom: 40px;
     }
     #song,
     #song2 {
